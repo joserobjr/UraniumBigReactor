@@ -1,16 +1,15 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "uraniumbigreactor",
+  "name": "Uranium Big Reactor",
+  "description": "Adds IC2 support to Extreme Reactors.",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["joserobjr"],
   "logoFile": "",
   "screenshots": [],
-  "dependencies": []
+  "dependencies": ["bigreactors", "IC2"]
 }
 ]

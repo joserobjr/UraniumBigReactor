@@ -21,7 +21,8 @@ compileJava {
 minecraft {
     version = '1.10.2-12.18.3.2254'
     runDir = 'run'
-    mappings = 'snapshot_20161111'
+    mappings = 'snapshot_20160518' // Same as latest BigReactor's source
+    replace '@VERSION@', project.version
 }
 
 repositories {
@@ -32,8 +33,9 @@ repositories {
 }
 
 dependencies {
-    compile 'net.industrial-craft:industrialcraft-2:2.6.99-ex110:dev'
+    compile 'net.industrial-craft:industrialcraft-2:2.6.99-ex110:api'
 	deobfCompile 'com.github.ZeroNoRyouki:BigReactors:-SNAPSHOT'
+    deobfCompile 'it.zerono.mods.zerocore:zerocore:1.10.2-0.0.8.2'
     // you may put jars on which you depend on in ./libs
     // or you may define them like so..
     //compile "some.group:artifact:version:classifier"
